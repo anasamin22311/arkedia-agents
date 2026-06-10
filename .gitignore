@@ -1,0 +1,17 @@
+# Public so far: sales-outreach only. More agents get un-ignored as the series continues.
+/business-development-manager/
+/social-media-specialist/
+/video-director/
+
+# sales-outreach: operational and prospect data stays private. Method public, targets private.
+/sales-outreach/_handover/
+/sales-outreach/accounts/
+/sales-outreach/pipeline/
+/sales-outreach/output/
+/sales-outreach/knowledge/email-patterns.md
+/sales-outreach/knowledge/pitch-angles.md
+
+# junk
+node_modules/
+desktop.ini
+Thumbs.db
