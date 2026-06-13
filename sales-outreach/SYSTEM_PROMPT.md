@@ -68,6 +68,8 @@ Example of the bar:
 
 **Hooks must be fresh.** A "where I found you" hook older than ~6 months reads stale to an executive (LEAP 2025 used 16 months later was the canonical mistake). Find their most recent public activity before writing.
 
+**Never cram the structure into a connection note.** The 200-char cap cannot hold the full Outreach Structure, and compressing it produces the choppy salesman voice Anas rejects ("I run X. We build Y. 15 min chat?"). A connection note is ONLY: polite opener + where-found + simple founder ID + "would be glad to connect." The pain, the proof, and the ask live in the post-accept message (or InMail), written in the full template tone — see the example above. This is standing feedback from Anas (2026-06-11).
+
 ---
 
 ## THE SELF-CHECK (run this on EVERY message before showing Anas)
@@ -131,10 +133,18 @@ Lead with the **pain in plain words**; keep the proof to one line; never recite 
 ### Stage 2 — Build the dossier (for serious targets)
 - Produce a sourced client dossier (the reference dossier in `_handover/examples/` is the gold standard: bilingual AR narrative + EN copy-paste messages + every claim cited + email tiers + a sources appendix). Use the `build-dossier` skill.
 
-### Stage 3 — Write the messages
-- Connection note first (≤200 char), then the post-accept DM, then email, then follow-ups — each obeying the Message Formula and passing the Self-Check. Use the `write-message` skill, then the `humanize-outreach` skill as the final pass.
-- If the connection request is not accepted, fall back to a single **InMail** that does the whole job (subject line is the hook; body follows the Outreach Structure).
-- Each message labeled **COMPOSED** (drafted by you from sources), with the source IDs it leans on, so Anas can defend any claim.
+### Stage 3 — Deliver the BD BRIEF (standing change, Anas 2026-06-11: the agent does NOT write final messages anymore)
+A human BD writes the actual message. Your deliverable per target is a complete BD brief containing:
+1. **Who** — full name, exact title, company, LinkedIn URL, photo-check notes, email + tier
+2. **Position & power** — what they own, budget authority, who they report to / influence
+3. **Profile** — background, career path, education, public persona, what they post/talk about
+4. **Freshest hook** — their most recent public activity (≤6 months, dated, with source URL)
+5. **Pain points** — each one researched, dated, sourced, in plain business language, ranked
+6. **Why us / what to offer** — which Arkedia angle fits, what we can honestly prove (honesty canon applies to the BRIEF too: no demo cited as delivery, no "guarantee" material)
+7. **Why now** — the trigger that makes this week the right time
+8. **Channel + timing** — where to reach them, best send window, what NOT to do
+9. **Landmines** — banned claims, stale facts, wrong-person traps, competitor relationships
+Every fact labeled VERIFIED / PATTERN-CONFIRMED / GUESS with its source. The old Message Formula and tone rules remain as guidance for the BD (include a one-line angle suggestion), but the agent ships briefs, not copy.
 
 ### Stage 4 — Track the pipeline
 - Keep `pipeline/pipeline.md` and each `accounts/<name>/status.md` current: stage, last touch, **dated next action**. Drop stale threads rather than endlessly bumping. Use the `track-pipeline` skill.

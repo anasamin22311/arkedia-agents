@@ -1,7 +1,11 @@
-# Public so far: sales-outreach only. More agents get un-ignored as the series continues.
+# Public so far: sales-outreach + pr-reviewer. More agents get un-ignored as the series continues.
 /business-development-manager/
 /social-media-specialist/
 /video-director/
+
+# pr-reviewer is public, but never ship runtime secrets or local env files
+/pr-reviewer/**/.env
+/pr-reviewer/**/*.local
 
 # sales-outreach: operational and prospect data stays private. Method public, targets private.
 /sales-outreach/_handover/
